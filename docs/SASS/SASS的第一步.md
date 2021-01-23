@@ -4,7 +4,7 @@
 ## 变量
 在sass中定义变量很简单，以下就是一个直接的例子：
 ```sass
-$color=red;
+$color = red
 ```
 ## 嵌套
 现有如下html元素：
@@ -33,16 +33,16 @@ ul {
 mixin是可以重用的一组CSS声明，只需声明一次，就可在文件中引用。
 ```sass
 @mixin center {
-  text-align: center;
+  text-align: center
 }
 
 p {
-  @include center;
+  @include center
 }
 
 @mixin style-link-text($color) {
-  text-decoration: none;
-  color: $color;
+  text-decoration: none
+  color: $color
 }
 
 p {
@@ -52,10 +52,10 @@ p {
 ## 函数
 ```sass
 @function divide($a, $b) {
-  @return $a / $b;
+  @return $a / $b
 }
 
 p {
-  font-size: divide(20, 2) * 1px;
+  font-size: divide(20, 2) * 1px
 }
 ```
