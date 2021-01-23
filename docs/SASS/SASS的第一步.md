@@ -4,7 +4,7 @@
 ## 变量
 在sass中定义变量很简单，以下就是一个直接的例子：
 ```sass
-$color = red
+$color: red
 ```
 ## 嵌套
 现有如下html元素：
