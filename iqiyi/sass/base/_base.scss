@@ -1,0 +1,13 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /*关于介绍css盒模型的文章https://juejin.cn/post/6844904135083425799*/
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem;
+}

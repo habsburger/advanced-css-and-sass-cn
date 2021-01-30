@@ -1,0 +1,14 @@
+{
+  "name": "iqiyi",
+  "version": "1.0.0",
+  "description": "An introduction for IQiYi",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "song",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
