@@ -34,6 +34,15 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
+
   &::after {
     content: "";
     display: inline-block;
@@ -63,7 +72,7 @@
     padding: 3px;
     transition: all, .2s;
   }
-  
+
   &:hover {
     background-color: $color-primary;
     color: $color-white;
