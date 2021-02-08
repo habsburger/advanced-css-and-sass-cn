@@ -7,4 +7,4 @@
 ## 目录
 依据教程，我制作了几个简单的css应用，目录如下：
 
-- 爱奇艺简介 [文档](./docs/IQIYI/README.md) [源码]() [在线演示]()
+- 爱奇艺简介 [文档](./docs/IQIYI/README.md) [源码](./iqiyi) [在线演示](https://habsburger.github.io/iqiyi-introduction/)
