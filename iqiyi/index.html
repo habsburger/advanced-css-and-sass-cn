@@ -13,6 +13,23 @@
     <title>爱奇艺简介</title>
 </head>
 <body>
+
+<div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navigation-toggle">
+    <label for="navigation-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+    </label>
+    <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>关于</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>特色</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>爱奇艺号</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>爱奇艺自制剧</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>成为开发者</a></li>
+        </ul>
+    </nav>
+</div>
 <header class="header">
     <!--    <div class="logo-box">-->
     <div class="header__logo-box">
@@ -190,70 +207,120 @@
             <a href="#" class="btn btn--green">更多爱奇艺号</a>
         </div>
     </section>
+    <section class="section-stories">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+                <source src="img/video.mp4" type="video/mp4">
+                <source src="img/video.webm" type="video/webm">
+                你的浏览器不支持！
+            </video>
+        </div>
+        <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+                爱奇艺自制剧
+            </h2>
+        </div>
+        <div class="row">
+            <div class="story">
+                <figure class="story__shape">
+                    <img src="img/wzzz.jpg" alt="无证之罪" class="story__image">
+                    <figcaption class="story__caption">无证之罪</figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3 class="heading-tertiary u-margin-bottom-small">无证之罪</h3>
+                    <p>
+                        神秘的“雪人杀人案”震惊了整个刑警队，凶手完美地消弭了一切线索，只留下一张“请来抓我”的字条，令警方的调查陷入困局。为了
+                        揭开真相，警队领导调来了蛰伏多年的神探严良，将最后的希望寄托在严良身上。见习律师郭羽在一起涉黑的债务纠纷中偶遇初恋女友
+                        朱慧如，为了帮助朱慧如，旧情未灭的郭羽伸出援手，不想却惹来了真正的麻烦。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="story">
+                <figure class="story__shape">
+                    <img src="img/nhjsg.jpg" alt="你好，旧时光 " class="story__image">
+                    <figcaption class="story__caption">你好，旧时光</figcaption>
+                </figure>
+                <div class="story__text">
+                    <h3 class="heading-tertiary u-margin-bottom-small">你好，旧时光 </h3>
+                    <p>
+                        2004年，振华高中二年级的余周周正面临着文理分科的抉择。虽然她的心中早已有了自己的决定，但身边的老师都在一次次提醒她，
+                        这不是一道简单的选择题。回到家中，大舅妈也在左右着周周的选择，这对于一直寄住在大舅家的周周来说，无疑是一种隐形的压力。
+                        她开始感到困惑与茫然，为什么做选择这么难。直到她想起妈妈对她说过的那句话——“闭着眼睛选出最动听的声音，那就是正确的。”
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="u-center-text u-margin-top-big">
+            <a href="#" class="btn btn-text">更多爱奇艺自制剧 &rarr;</a>
+        </div>
+    </section>
+    <section class="section-develop">
+        <div class="row">
+            <div class="develop">
+                <div class="develop__form">
+                    <form action="#" class="form">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-secondary">
+                                立即成为开发者
+                            </h2>
+                        </div>
+                        <div class="form__group">
+                            <input id="name" class="form__input" type="text" placeholder="昵称" required>
+                            <label for="name" class="form__label">昵称</label>
+                        </div>
+                        <div class="form__group">
+                            <input id="email" class="form__input" type="email" placeholder="邮箱" required>
+                            <label for="email" class="form__label">邮箱</label>
+                        </div>
+                        <div class="form__group u-margin-bottom-medium">
+                            <div class="form__radio-group">
+                                <input type="radio" class="form__radio-input" id="small" name="size">
+                                <label for="small" class="form__radio-label">
+                                    <span class="form__radio-button"></span>
+                                    视频托管
+                                </label>
+                            </div>
+                            <div class="form__radio-group">
+                                <input type="radio" class="form__radio-input" id="large" name="size">
+                                <label for="large" class="form__radio-label">
+                                    <span class="form__radio-button"></span>
+                                    视频播放
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__group">
+                            <button class="btn btn--green">下一步 &rarr;</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
-<!--
-<section class="grid-test">
+
+<footer class="footer">
+    <div class="footer__logo-box">
+        <img src="img/logo.png" alt="Full Logo" class="footer__logo">
+    </div>
     <div class="row">
         <div class="col-1-of-2">
-            两列之一
+            <div class="footer__navigation">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">公司</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">联系我们</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">隐私政策</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">团队</a></li>
+                </ul>
+            </div>
         </div>
         <div class="col-1-of-2">
-            两列之一
+            <p class="footer__copyright">
+                <a href="#" class="footer__link">爱奇艺</a>简介：未来，爱奇艺将在多元化的内容储备、个性化的产品体验、定制化营销服务领域继续发力，引领视频体验革命。不断提升连接人与服务的能力，更好地改变人们的生活。 Copyright &copy; by song
+            </p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-1-of-3">
-            三列之一
-        </div>
-        <div class="col-1-of-3">
-            三列之一
-        </div>
-        <div class="col-1-of-3">
-            三列之一
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1-of-3">
-            三列之一
-        </div>
-        <div class="col-2-of-3">
-            三列之二
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1-of-4">
-            四列之一
-        </div>
-        <div class="col-1-of-4">
-            四列之一
-        </div>
-        <div class="col-1-of-4">
-            四列之一
-        </div>
-        <div class="col-1-of-4">
-            四列之一
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1-of-4">
-            四列之一
-        </div>
-        <div class="col-1-of-4">
-            四列之一
-        </div>
-        <div class="col-2-of-4">
-            四列之二
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1-of-4">
-            四列之一
-        </div>
-        <div class="col-3-of-4">
-            四列之三
-        </div>
-    </div>
-</section>
--->
+</footer>
 </body>
 </html>
